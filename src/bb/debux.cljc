@@ -9,19 +9,19 @@
   #?(:cljs
      (do
        (debux.cs.core/register-macros!
-        :let-type [j/let]))
+        :let-type [j/let])
 
-     (debux.cs.core/register-macros!
-      :skip-all-args-type [j/get-in])
+       (debux.cs.core/register-macros!
+        :skip-all-args-type [j/get-in])
 
-     (debux.cs.core/register-macros!
-      :skip-all-args-type [j/lit]
+       (debux.cs.core/register-macros!
+        :skip-all-args-type [j/lit])
 
-      (debux.cs.core/register-macros!
-       :skip-arg-2-type [j/call-in j/assoc-in! j/update-in! j/apply-in]))
+       (debux.cs.core/register-macros!
+        :skip-arg-2-type [j/call-in j/assoc-in! j/update-in! j/apply-in])))
 
-     (debux.cs.core/register-macros!
-      :expand-type [b/cond* bc/cond]))
+  (debux.cs.core/register-macros!
+   :expand-type [b/cond* bc/cond])
 
   (debux.core/register-macros!
    :expand-type [b/cond* bc/cond])
