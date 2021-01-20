@@ -35,6 +35,16 @@
   [coll f]
   (zipmap coll (map f coll)))
 
+(defn ->dict
+  "Like dictionary comprehension in python: {k: f(k) for k in coll}"
+  [coll f]
+  (zipmap coll (map f coll)))
+
+(defn ->>dict
+  "Like ->dict but the coll argument comes last."
+  [f coll]
+  (->dict coll f))
+
 (defn ensure-vector [x]
   (if (vector? x)
     x
