@@ -3,7 +3,7 @@
   :url "https://github.com/lucywang000/bb"
   :min-lein-version "2.5.0"
 
-  :dependencies [[org.clojure/clojure "1.10.1" :scope "provided"]
+  :dependencies [[org.clojure/clojure "1.10.3" :scope "provided"]
                  [vvvvalvalval/scope-capture "0.3.2"]
                  [medley "1.3.0"]
                  [cprop "0.1.17"
