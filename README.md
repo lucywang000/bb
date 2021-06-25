@@ -2,6 +2,7 @@
 
 Some utils, that are useful sometimes.
 
+[![Clojars Project](https://img.shields.io/clojars/v/bb.svg)](https://clojars.org/bb)
 
 ## `bb.clojure/cond*`
 
