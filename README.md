@@ -13,6 +13,19 @@ Other funtions in better-cond family is also included:
 - `bb.clojure/if-some*`
 - `bb.clojure/if-let*`
 
+## `bb.debux`
+
+Setting up [debux](https://github.com/philoskim/debux) intgration for the better-cond family of macros.
+
+## `bb.meander`
+
+Some custom [meander](https://github.com/noprompt/meander/) syntax sugars.
+
+
+## `bb.scope-capture`
+
+Add a data reader `#sp` for [scope-capture](https://github.com/vvvvalvalval/scope-capture)
+
 ## `bb.path`
 
 Provides path manipulation functions like:
@@ -20,3 +33,14 @@ Provides path manipulation functions like:
 - `bb.path/basename`
 - `bb.path/dirname`
 - `bb.path/exists?`
+
+A better alternative is [babashka.process](https://github.com/babashka/fs).
+
+
+## `bb.subprocess`
+
+A few utils functions for spawning a child process. A better alternative is [babashka.process](https://github.com/babashka/process).
+
+## `bb.str`
+
+Some string utils.
